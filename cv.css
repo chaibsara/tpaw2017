@@ -1,0 +1,27 @@
+body{
+	background-color: lightgray;
+}
+table {
+	background-color: white;
+
+}
+
+.imgA img {
+	 display: none;
+	 height: 50px;
+	 //visibility: hidden;
+
+}
+
+.imgA:hover img{
+	display: inline-block;
+	//visibility: visible;
+}
+
+.imgA:hover .txtA{
+	display: none;
+}
+
+a:hover {
+	color: orange;
+}
