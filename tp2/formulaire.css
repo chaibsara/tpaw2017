@@ -1,0 +1,47 @@
+
+body {
+	background-image: url(imgg.jpg); 
+	image-rendering: none;
+	}
+table {
+	background-color: white;
+	
+    
+}
+.form{
+	border-radius: 5px;
+	padding: 5px 120px;
+}
+
+
+
+.tab {
+
+	height: 500px;
+    width: 300px;
+    margin: 0 auto;
+    background color: black;
+
+}
+
+
+#error {
+	background: pink;
+	//padding: 120px 10px;
+	border: 10px solid white;
+	
+	border-color: none;
+    //margin: 0 auto;
+    //width: 470px;
+    //height: 20px;
+
+
+}
+
+#resultat {
+
+	background: green;
+	//padding: 10px;
+	//border: 1px solid black;
+	//border-color: black ;
+}

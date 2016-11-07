@@ -1,23 +1,44 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>TP2</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<meta charset="utf-8">
+	<title>formulaire</title>
+	<script type="text/javascript" src="formulaire.js"></script>
+	<link rel="stylesheet" type="text/css" href="formulaire.css">
+</head>
+<body>
+<div class="tab">
+	<h1><center>Saisie d'une fiche "Personne" </center></h1>
+<table width="100%">
+	
+	<tr>
+	<td><label>Nom*</label></td>
+	<td><input type="text" name="Nom" class="form" id="Nom" placeholder="Entrer votre nom" maxlength="10" required/></td>
+	</tr>
+	<tr>
+		<td><label> Prénom*</label></td>
+		<td><input type="text" name="Prénom" class="form" id="Prénom" maxlength="10" placeholder="Entrer votre Prénom" required/></td>
+	</tr>
+	<tr>
+		<td><label>Date de naissance*</label></td>
+		<td><input type="date" name="Date de naissance" class="form" id="Date de naissance" placeholder="JJ/MM/AA" required/></td>
+	</tr>
+	<tr>
+		<td><label>Adresse*</label></td>
+		<td><input type="text" name="Adresse" class="form" id="Adresse" placeholder="Entrer votre adresse" required /></td>
+	</tr>
+	<tr>
+		<td><label>Mail*</label></td>
+		<td><input type="email" name="Mail" class="form" id="Mail" placeholder="Entrer votre adresse mail" required/></td>
+	</tr>
+	<tr>
+		
+		<td colspan="2" align= "center"><input type="button" value="Valider" id="Valider"  onclick="validation()" /></td>
+	</tr>
+	</table>
+	
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
-        
-        <!-- Code à dé-commenter si besoin de fichier CSS ou JS -->
-        <!--<link rel="stylesheet" href="style.css">-->
-        <!--<script src="js/main.js"></script>-->
-    </head>
-    <body>        
-        <h1>tp2</h1>
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-        <img src="../galilee.png" alt="Logo Galilee"/>
-    </body>
+		</div>
+	</body>
 </html>
+
